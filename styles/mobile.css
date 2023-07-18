@@ -1,0 +1,85 @@
+
+.nav-container{
+  flex-direction: column;
+  text-align: center;
+}
+.nav-menu{
+    flex-direction: column;
+}
+/* *section 1 */
+.sec-1-container{
+   flex-direction: column-reverse;
+   align-items: center;
+}
+.sec1-text{
+    width: 100%;
+    text-align: center;
+
+}
+.sec1-img{
+    width: 300px;
+    height: 300px; 
+}
+.sec1-btn{
+   margin-top: 25px;
+}
+.sec1-h1{
+    font-size: 40px;
+    font-weight: 700;
+line-height: 40px;
+}
+
+/* *section 2 */
+.sec-2-container{
+    display: grid;
+    
+   justify-content: center;
+   align-items: center;
+}
+.sec-2-container img{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+/* *================================================= */
+
+/* *section 3 */
+.sec3-container{
+    margin: 10px 0px;
+    gap: 0px;
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+font-size: 16px;
+font-weight: 700;
+margin: 0;
+margin-bottom: 20px;
+text-align: end;
+}
+/* *==================================== */
+
+
+/* *section 4 */
+.sec4{
+    flex-direction: column;
+    margin: 0px;
+    text-align: center;
+  
+}
+.sec4-img{
+    max-width: 100%;
+    overflow: hidden;
+}
+.sec4-text h2{
+    color: #0A0826;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px; /* 157.895% */
+}
+/* *==================================== */
+footer{
+    margin-top: 20px;
+}
